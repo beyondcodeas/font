@@ -16,3 +16,10 @@ In addition to use this font for logos, it might also be used for headings and q
 ## Roadmap
 
 The font is currently only available in regular font weight and style.
+
+Considering to expand with these variants:
+
+* monospace
+  * fun to have our own font for coding!
+* semibold
+* thin

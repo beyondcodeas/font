@@ -15,7 +15,7 @@ In addition to use this typeface for logos, it might also be used for headings a
 
 ## Roadmap
 
-The typeface is currently only available in regular weight and style.
+The typeface is currently only available in regular font weight and style.
 
 Considering to expand with these variants:
 

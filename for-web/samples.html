@@ -57,20 +57,20 @@
         border-collapse: collapse;
         margin-bottom: 1em;
         width: 100%;
+      }
 
-        .glyph {
-          border-right: 0;
-          text-align: center;
-          width: 0.8em;
-        }
+      .glyph {
+        border-right: 0;
+        text-align: center;
+        width: 0.8em;
+      }
 
-        .glyph-name {
-          border-left: 0;
-          color: #727272;
-          font-family: sans-serif;
-          font-size: 12px;
-          white-space: nowrap;
-        }
+      .glyph-name {
+        border-left: 0;
+        color: #727272;
+        font-family: sans-serif;
+        font-size: 12px;
+        white-space: nowrap;
       }
 
       td {
@@ -83,6 +83,26 @@
 
         p {
           font-size: 27px;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #111;
+          color: #eee;
+        }
+        article {
+          background-color: #222;
+        }
+        hr {
+          border-color: #444;
+        }
+        table,
+        td {
+          border-color: #444;
+        }
+        .glyph-name {
+          color: #bbb;
         }
       }
     </style>

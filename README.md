@@ -11,7 +11,7 @@ This repository holds the svgs for all glyphs relevant, as well as the **FontFor
 
 ## Usage of the typeface
 
-In addition to use this typeface for logos, it might also be used for headings and quotes on the web and in printed materials. However, it is **by no means allowed** to be used on body text.
+In addition to use this typeface for logos, it might also be used for headings and large text on the web and in printed materials. However, it is **by no means allowed** to be used on body text.
 
 ## Roadmap
 

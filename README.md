@@ -9,9 +9,11 @@ A custom typeface based on the original Beyond Code logo, which is created aroun
 
 This repository holds the svgs for all glyphs relevant, as well as the **FontForge** file (.sfd) and font files for installment in operating systems (.otf) and for web (.woff2)
 
-## Usage of the typeface
+## Usage
 
 In addition to use this typeface for logos, it might also be used for headings and large text on the web and in printed materials. However, it is **by no means allowed** to be used on body text.
+
+Demo of [typeface in action](https://blog.beyondcode.no/font/for-web/samples.html)
 
 ## Roadmap
 

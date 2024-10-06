@@ -13,6 +13,9 @@
       :root {
         font-size: 150%;
       }
+      * {
+        box-sizing: border-box;
+      }
       body {
         background-color: #f4f4f4;
         color: #444;
@@ -60,6 +63,7 @@
       }
 
       .glyph {
+        background-color: #fafafa;
         border-right: 0;
         text-align: center;
         width: 0.8em;
@@ -79,9 +83,8 @@
       }
 
       .kerning {
-        display: none; /* Show when developing only */
-
-        p {
+        display: none;
+        Show when developing only */ p {
           font-size: 27px;
         }
       }
@@ -105,7 +108,43 @@
           color: #bbb;
         }
       }
+
+      @media (max-width: 767px) {
+        table,
+        tbody,
+        td {
+          display: block;
+        }
+
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+
+        .glyph {
+          flex-grow: 0;
+          width: 10%;
+        }
+        .glyph-name {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 0;
+          justify-content: center;
+          width: 40%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .glyph {
+          width: 16%;
+        }
+        .glyph-name {
+          width: 84%;
+        }
+      }
     </style>
+    <script src="glyphs.js"></script>
   </head>
   <body>
     <header>
@@ -143,21 +182,25 @@
       <h2>Other glyphs</h2>
       <div style="overflow-x: auto">
         <table>
+          <tbody id="glyphHouse"></tbody>
+        </table>
+
+        <table>
           <tbody>
             <tr>
-              <td class="glyph">"</td>
+              <td class="glyph">&quot;</td>
               <td class="glyph-name">double quotes</td>
-              <td class="glyph">'</td>
-              <td class="glyph-name">single quote</td>
-              <td class="glyph">´</td>
+              <td class="glyph">&apos;</td>
+              <td class="glyph-name">single quote (apostrophe)</td>
+              <td class="glyph">&acute;</td>
               <td class="glyph-name">acute accent</td>
-              <td class="glyph">`</td>
+              <td class="glyph">&grave;</td>
               <td class="glyph-name">grave accent (backtick)</td>
             </tr>
             <tr>
               <td class="glyph">*</td>
               <td class="glyph-name">asterisk</td>
-              <td class="glyph">×</td>
+              <td class="glyph">&times;</td>
               <td class="glyph-name">multiplication</td>
               <td class="glyph">+</td>
               <td class="glyph-name">plus</td>
@@ -239,10 +282,20 @@
               <td class="glyph-name">underscore</td>
               <td class="glyph">§</td>
               <td class="glyph-name">section</td>
-              <td class="glyph"></td>
-              <td class="glyph-name"></td>
-              <td class="glyph"></td>
-              <td class="glyph-name"></td>
+              <td class="glyph">¡</td>
+              <td class="glyph-name">inverted exclamation</td>
+              <td class="glyph">¿</td>
+              <td class="glyph-name">inverted question</td>
+            </tr>
+            <tr>
+              <td class="glyph">&copy;</td>
+              <td class="glyph-name">copyright</td>
+              <td class="glyph">&reg;</td>
+              <td class="glyph-name">registered</td>
+              <td class="glyph">&deg;</td>
+              <td class="glyph-name">degree</td>
+              <td class="glyph">&plusmn;</td>
+              <td class="glyph-name">plusminus</td>
             </tr>
           </tbody>
         </table>
@@ -574,6 +627,6 @@
       </p>
     </article>
 
-    <script></script>
+    <script src="render-glyphs.js"></script>
   </body>
 </html>

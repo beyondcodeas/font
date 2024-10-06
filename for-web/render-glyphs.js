@@ -27,3 +27,5 @@ function renderGlyphs() {
     tbody.appendChild(tr);
   }
 }
+
+renderGlyphs();

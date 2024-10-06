@@ -1,27 +1,29 @@
-const glyphHouse = document.getElementById('glyphHouse');
+function renderGlyphs() {
+  const tbody = document.getElementById('glyphHouse');
 
-const itemsPerRow = 4;
-let currentRow = 1;
-let tr;
-let tdG;
-let tdGN;
+  let tr = document.createElement('tr');
 
-GLYPHS.forEach((glyph) => {
-  if (currentRow === 1) {
-    tr = document.createElement('tr');
+  GLYPHS.forEach((item, index) => {
+    const key = Object.keys(item)[0];
+    const value = item[key];
+
+    const keyTd = document.createElement('td');
+    keyTd.innerHTML = key;
+    keyTd.className = 'glyph';
+    tr.appendChild(keyTd);
+
+    const valueTd = document.createElement('td');
+    valueTd.textContent = value;
+    valueTd.className = 'glyph-name';
+    tr.appendChild(valueTd);
+
+    if ((index + 1) % 4 === 0) {
+      tbody.appendChild(tr);
+      tr = document.createElement('tr');
+    }
+  });
+
+  if (tr.childElementCount > 0) {
+    tbody.appendChild(tr);
   }
-  tdG = document.createElement('td');
-  tdG.classList.add('glyph');
-  tdGN = document.createElement('td');
-  tdGN.classList.add('glyph-name');
-
-  for (const [key, value] of Object.entries(glyph)) {
-    tdG.innerHTML = key;
-    tdGN.innerHTML = value;
-    tr.appendChild(tdG);
-    tr.appendChild(tdGN);
-  }
-  currentRow = currentRow < itemsPerRow ? currentRow++ : (currentRow = 1);
-
-  // glyphHouse.appendChild(tr);
-});
+}

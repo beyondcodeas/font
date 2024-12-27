@@ -10,13 +10,15 @@ In addition to use this typeface for logos, it might also be used for headings a
 
 Demo of [typeface in action](https://blog.beyondcode.no/font/for-web/samples.html)
 
-## Roadmap
+## Currently available
+- regular style, normal weight
+  - released summer 2024
+- monospace
+  - released christmas 2024
 
-The typeface is currently only available in regular font weight and style.
+## Roadmap
 
 Considering to expand with these variants:
 
-* monospace
-  * fun to have our own font for coding!
 * semibold
 * thin

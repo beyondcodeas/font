@@ -2,7 +2,7 @@ SplineFontDB: 3.2
 FontName: Beyond
 FullName: Beyond
 FamilyName: Beyond
-Weight: Standard
+Weight: Normal
 Copyright: Copyright (c) 2023, Karl Granli, Beyond Code AS
 UComments: "2023-7-18: Created with FontForge (http://fontforge.org)"
 Version: 001.000
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1689690114
-ModificationTime: 1728301793
+ModificationTime: 1735326920
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

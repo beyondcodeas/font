@@ -10,6 +10,10 @@
         font-family: 'Beyond';
         src: url('Beyond.woff2') format('woff2');
       }
+      @font-face {
+        font-family: 'Beyond Code';
+        src: url('BeyondCode.woff2') format('woff2');
+      }
       :root {
         font-size: 150%;
       }
@@ -56,6 +60,11 @@
         padding: 1px 20px 8px;
       }
 
+      code,
+      pre {
+        font-family: 'Beyond Code', monospace;
+      }
+
       section {
         margin-bottom: 2em;
         text-align: right;
@@ -95,7 +104,8 @@
 
       .kerning {
         display: none;
-        Show when developing only */ p {
+        /* Show when developing only */
+        p {
           font-size: 27px;
         }
       }
@@ -211,6 +221,21 @@
           <tbody id="glyphHouse"></tbody>
         </table>
       </div>
+    </article>
+
+    <article>
+      <h2>Monospace</h2>
+      <p>
+        <pre>
+0123456789
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </pre>
+        <code>0123456789</code><br />
+        <code>abcdefghijklmnopqrstuvwxyz</code><br />
+        <code>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code><br />
+        <code>.,:;@()[]{}<>!?“‘`´¨^/|\*-+×_=&%$#§€~≈©®</code>
+      </p>
     </article>
 
     <article class="kerning">

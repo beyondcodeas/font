@@ -3423,7 +3423,7 @@ EndChar
 StartChar: at
 Encoding: 64 64 88
 Width: 550
-Flags: W
+Flags: WO
 HStem: 100 60<226.615 322.931 403.705 451.396> 290 60<226.615 323.385>
 VStem: 150 60<176.615 273.385> 340 60<176.886 273.114>
 LayerCount: 2

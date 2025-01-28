@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1689690114
-ModificationTime: 1737842637
+ModificationTime: 1738086416
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,6] } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -791,7 +792,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 20
 Width: 362
-Flags: W
+Flags: HW
 HStem: -225 75<53.9155 164.723> 430 20G<265 285> 525 75<241.723 308.277>
 VStem: 238 74<-76.8099 446.49 528.336 596.49>
 LayerCount: 2
@@ -802,9 +803,9 @@ SplineSet
  238 582 255 600 275 600 c 0
  295 600 312 582 312 562 c 0
  312 542 295 525 275 525 c 0
-238 412 m 2
- 238 432 255 450 275 450 c 0
- 295 450 312 432 312 412 c 2
+238 392 m 6
+ 238 412 255 430 275 430 c 4
+ 295 430 312 412 312 392 c 6
  312 0 l 2
  312 -30 308 -58 296 -86 c 0
  284 -114 267 -138 246 -159 c 0
@@ -816,7 +817,7 @@ SplineSet
  163 -130 180 -120 194 -106 c 0
  208 -92 218 -76 226 -58 c 0
  234 -40 238 -20 238 0 c 2
- 238 412 l 2
+ 238 392 l 6
 EndSplineSet
 EndChar
 
@@ -3116,7 +3117,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 78
 Width: 175
-Flags: HWO
+Flags: HW
 HStem: -45 120
 VStem: 50 75<4.28636 71.2773>
 LayerCount: 2

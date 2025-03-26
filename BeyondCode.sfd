@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 34 14
+WinInfo: 0 29 14
 BeginPrivate: 3
 BlueValues 22 [-1 0 450 450 675 675]
 StdHW 4 [75]
@@ -3615,7 +3615,7 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 93
 Width: 550
-Flags: HW
+Flags: W
 HStem: -225 50<20.1976 529.802>
 LayerCount: 2
 Fore
